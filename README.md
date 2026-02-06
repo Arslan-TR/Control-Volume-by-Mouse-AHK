@@ -62,8 +62,8 @@ This project is open source for **personal use** only.
 | **Renk Seçici** | `Win` + `C` | İmlecin altındaki rengi panoya kopyalar |
 
 ### 📦 Kurulum
-1.  [AutoHotkey v1.1](https://www.autohotkey.com/) sürümünü indirip kurun.
-2.  Bu depodaki `.ahk` uzantılı dosyayı indirin.
+1.  Bu sayfaki `.ahk` uzantılı dosyayı indirin.
+2.  [AutoHotkey v1.1](https://www.autohotkey.com/) sürümünü indirip kurun.
 3.  Çalıştırmak için dosyaya çift tıklayın.
 
 ### 📄 Lisans
