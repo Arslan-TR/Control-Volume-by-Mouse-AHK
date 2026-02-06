@@ -1,63 +1,72 @@
 # Control-Volume-by-Mouse-AHK
 u can Control Volume by Mouse AHK ( AutoHotkey v1.1.37.02)
 
-🎛️ HepsiBirArada.ahk - Gelişmiş Sistem Kontrolcüsü
-Bu AutoHotkey scripti, günlük bilgisayar kullanımınızı hızlandırmak için ses kontrolü, sanal masaüstü yönetimi ve çeşitli yardımcı araçları tek bir dosyada birleştirir.
+# 🎛️ All-in-One System Controller (AutoHotkey)
 
-🚀 Özellikler ve Kullanım
-1. 🔊 Akıllı Ses Kontrolü
-Farenizi veya klavyenizi kullanarak ses seviyesini hızlıca yönetin.
+A comprehensive AutoHotkey script that combines smart volume control, virtual desktop management, and various productivity tools into a single, lightweight utility.
 
+---
 
-Fare Tekerleği: İmleç Görev Çubuğu (Taskbar) üzerindeyken tekerleği aşağı/yukarı kaydırarak sesi açıp kapatabilirsiniz.
-+1
+## 🇺🇸 English Documentation
 
-Klavye Kısayolları:
+### 🚀 Features
+* **Smart Volume Control:** Adjust volume by scrolling the mouse wheel while hovering over the Taskbar.
+* **Virtual Desktop Manager:** Switch between Windows virtual desktops instantly using shortcuts.
+* **Color Picker:** Grab the Hex/RGB color code of any pixel on your screen.
+* **Date & Week Info:** Quickly check the current date and week number of the year.
+* **Media Controls:** Dedicated hotkeys for Play/Pause and Volume control.
 
+### ⌨️ Controls & Hotkeys
 
-F10: Sesi Kıs (2 birim) 
+| Feature | Action / Hotkey | Description |
+| :--- | :--- | :--- |
+| **Volume Control** | `Mouse Wheel` (Over Taskbar) | Scroll Up/Down to adjust volume |
+| **Week Info** | `F1` | Shows current date and week number |
+| **Suspend Script** | `F3` | Pauses the script (useful for gaming) |
+| **Play/Pause** | `F8` | Toggles media playback |
+| **Volume Keys** | `F10` / `F11` / `F12` | Vol Down / Vol Up / Mute |
+| **Switch Desktop** | `Win` + `1`, `2`, `3` | Switch to Desktop 1, 2, or 3 |
+| **Switch Desktop** | `CapsLock` + `1`, `2`, `3` | Alternative shortcut for switching |
+| **Color Picker** | `Win` + `C` | Copies pixel color under cursor to clipboard |
 
+### 📦 Installation
+1.  Download and install [AutoHotkey v1.1](https://www.autohotkey.com/).
+2.  Download the `.ahk` script from this repository.
+3.  Double-click the script to run it.
 
-F11: Sesi Aç (2 birim) 
+### 📄 License
+This project is open source for **personal use** only.
+**Commercial rights are reserved by Arslan_TR.**
 
+---
 
-F12: Sesi Kapat/Aç (Mute) 
+## 🇹🇷 Türkçe Detaylar
 
-2. 🖥️ Sanal Masaüstü Yönetimi
-Windows sanal masaüstleri arasında şimşek hızında geçiş yapın. (Windows 10/11 uyumlu kayıt defteri okuma yöntemi kullanılır ).
+### 🚀 Özellikler
+* **Akıllı Ses Kontrolü:** Fare imleci Görev Çubuğu (Taskbar) üzerindeyken tekerleği kaydırarak sesi ayarlayın.
+* **Sanal Masaüstü Yöneticisi:** Kısayollarla Windows sanal masaüstleri arasında anında geçiş yapın.
+* **Renk Seçici (Color Picker):** Ekrandaki herhangi bir noktanın Hex/RGB renk kodunu kopyalayın.
+* **Tarih ve Hafta Bilgisi:** Yılın kaçıncı haftasında olduğunuzu ve bugünün tarihini bir ipucu balonunda görün.
+* **Medya Kontrolleri:** Oynat/Durdur ve Ses yönetimi için atanmış tuşlar.
 
+### ⌨️ Kontroller ve Kısayollar
 
-Windows Tuşu ile: Win + 1, 2 veya 3 tuşlarına basarak ilgili masaüstüne geçin.
+| Özellik | Aksiyon / Kısayol | Açıklama |
+| :--- | :--- | :--- |
+| **Ses Kontrolü** | `Fare Tekerleği` (Taskbar Üstünde) | Sesi açmak/kısmak için tekerleği kaydırın |
+| **Hafta Bilgisi** | `F1` | Tarihi ve hafta numarasını gösterir |
+| **Scripti Durdur** | `F3` | Scripti geçici olarak durdurur (Oyunlar için) |
+| **Oynat/Durdur** | `F8` | Medyayı oynatır veya duraklatır |
+| **Ses Tuşları** | `F10` / `F11` / `F12` | Ses Kıs / Ses Aç / Sessize Al |
+| **Masaüstü Geçiş**| `Win` + `1`, `2`, `3` | 1, 2 veya 3. Masaüstüne geçiş yapar |
+| **Masaüstü Geçiş**| `CapsLock` + `1`, `2`, `3` | Alternatif geçiş kısayolu |
+| **Renk Seçici** | `Win` + `C` | İmlecin altındaki rengi panoya kopyalar |
 
+### 📦 Kurulum
+1.  [AutoHotkey v1.1](https://www.autohotkey.com/) sürümünü indirip kurun.
+2.  Bu depodaki `.ahk` uzantılı dosyayı indirin.
+3.  Çalıştırmak için dosyaya çift tıklayın.
 
-CapsLock ile: CapsLock + 1, 2 veya 3 kombinasyonu da aynı işlevi görür.
-
-
-Alternatifler: Ctrl+Alt+Sayı veya Alt+Sayı kombinasyonları da tanımlıdır.
-
-3. 🎨 Araçlar ve Ekstralar
-📅 Hafta ve Tarih Bilgisi (F1):
-
-
-F1 tuşuna bastığınızda, bugün ayın kaçı olduğunu ve yılın kaçıncı haftasında olduğunuzu gösteren bir bilgi baloncuğu çıkarır.
-
-🖌️ Renk Seçici / Color Picker (Win + C):
-
-
-Win + C tuşuna bastığınızda, farenin o an üzerinde olduğu pikselin renk kodunu (RGB/Hex) alır, panoya kopyalar ve ekranda gösterir.
-
-⏯️ Medya Kontrolü (F8): Müziği veya videoyu Durdur/Oynat işlevi görür.
-
-4. ⚙️ Sistem Kontrolleri
-Scripti Duraklat (F3): Scripti geçici olarak devre dışı bırakmak isterseniz F3 tuşuna basın. Tekrar basarak aktif edebilirsiniz.
-
-Sıcak Köşeler (Hot Corners): Kod içerisinde ekranın 4 köşesi için altyapı hazırlanmıştır (TopLeft, BottomRight vb.). Şu an için boştur, ileri seviye kullanıcılar kodun ilgili bölümüne kendi komutlarını ekleyebilirler.
-
-🛠️ Kurulum
-Bilgisayarınızda AutoHotkey (v1.1 sürümü) yüklü olduğundan emin olun.
-
-Script dosyasını (.ahk uzantılı) indirin.
-
-Dosyaya çift tıklayarak çalıştırın.
-
-Sistem tepsisinde (saat yanında) yeşil "H" ikonunu gördüğünüzde script aktif demektir.
+### 📄 Lisans
+Bu proje **açık kaynak olarak kişisel kullanıma açıktır.**
+**Arslan_TR tarafından ticari hakları saklıdır.**
