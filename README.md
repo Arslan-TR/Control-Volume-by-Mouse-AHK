@@ -1,7 +1,7 @@
 # Control-Volume-by-Mouse-AHK
-u can Control Volume by Mouse AHK ( AutoHotkey v1.1.37.02)
+u can Control Volume, Color picker, Week current info by Mouse AHK ( AutoHotkey v1.1.37.02)
 
-# 🎛️ All-in-One System Controller (AutoHotkey)
+# 🎛️ All-in-One Fast Windows Controller (AHK)
 
 A comprehensive AutoHotkey script that combines smart volume control, virtual desktop management, and various productivity tools into a single, lightweight utility.
 
