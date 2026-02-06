@@ -1,4 +1,3 @@
-# Control-Volume-by-Mouse-AHK
 u can Control Volume, Color picker, Week current info by Mouse AHK ( AutoHotkey v1.1.37.02)
 
 # 🎛️ All-in-One Fast Windows Controller (AHK)
